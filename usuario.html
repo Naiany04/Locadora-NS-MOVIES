@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuário</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="geral.css">
+    <style>
+        body {
+            background-color: lightcyan;
+        }
+/* 
+        .container {
+            background-color: lightcyan;
+        } */
+
+        h2 {
+            font-family: 'Courier New', Courier, monospace;
+            color: white;
+            font-size: 2.3em;
+            font-weight: bolder;
+        }
+
+        label {
+            font-family: 'Courier New', Courier, monospace;
+            color: white;
+            font-size: 1em;
+        font-weight: bolder;
+        color: black;
+        }
+        h2, p{
+            color: black;
+        }
+    </style>
+
+</head>
+
+
+<body>
+
+    <header>
+        <div class="row-1 justify-content-center" id="input">
+
+            <div class="col">
+                <input type="text" class="form-control m-1" disabled id="nay"
+                    style="width: 500px; text-align: center; color: black; background-color: lightcyan; border-color: lightcyan;">
+
+            </div>
+        </div>
+        <a href="principal.html">
+            <picture>
+                <img src="logo.png" alt="" style="width: 7%;">
+            </picture>
+        </a>
+        <h2>
+            NS MOVIES
+        </h2>
+        <p>
+            Os melhores filmes você encontra aqui
+        </p>
+    </header>
+    <nav>
+        <a href="usuario.html">Cliente</a>
+        <a href="carrinho.html">Carrinho</a>
+        <a href="faleconosco.html">Fale Conosco</a>
+    </nav>
+
+    <div class="container">
+        <div class="row justify-content-center m-2">
+            <h2 style="text-align: center;">Consultando CEP</h2>
+            <div class="col-6">
+                <div class="col">
+                    <label for="nome" class="form-label">Nome</label>
+                    <input type="text" required class="form-control" id="nome" placeholder="Nome">
+                </div>
+
+                <div class="col">
+                    <label for="cpf" class="form-label">CPF</label>
+                    <input type="text" required class="form-control" id="cpf" placeholder="000000000-00">
+                </div>
+
+                <div class="col">
+                    <label for="rg" class="form-label">RG</label>
+                    <input type="text" required class="form-control" id="rg" placeholder="0000000">
+                </div>
+
+                <div class="col">
+                    <label for="cep" class="form-label">CEP</label>
+                    <input type="text" required class="form-control" id="cep" placeholder="00000-000">
+                </div>
+
+                <div class="col">
+                    <label for="logradouro" class="form-label">Logradouro</label>
+                    <input type="text" class="form-control" id="logradouro" placeholder="Rua">
+                </div>
+
+                <div class="col">
+                    <label for="bairro" class="form-label">Bairro</label>
+                    <input type="text" class="form-control" id="bairro" placeholder="Bairro">
+                </div>
+
+                <div class="col">
+                    <label for="localidade" class="form-label">Localidade</label>
+                    <input type="text" class="form-control" id="localidade" placeholder="Cidade">
+                </div>
+
+                <div class="col">
+                    <label for="UF" class="form-label">UF</label>
+                    <input type="text" class="form-control" id="uf" placeholder="Estado">
+                </div>
+            </div>
+        </div>
+        <footer>
+            <a href="https://www.instagram.com/naianyy_silva/"><img src="logo insta.png" alt=""
+                    style="width: 4%;" id="insta">@naianyy_silva</a>
+            <a href="https://www.facebook.com/naiany.silva.37266"><img src="logo-facebook-png.webp" alt=""
+                    style="width: 4%;" id="facebook">@naianysilva</a>
+
+        </footer>
+    </div>
+
+</body>
+<script src="usuario.js"></script>
+
+</html>

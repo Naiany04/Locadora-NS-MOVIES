@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NS-Movies</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="geral.css">
+</head>
+<style>
+    h3{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 2.5em;
+        font-weight: bolder;    
+    }
+    body{
+        background-color: lightcyan;
+    }
+    .row{
+        background-color: color;
+        margin-top: 10px;
+    }
+</style>
+<body>
+    <header>
+        <a href="principal.html">
+            <picture>
+                <img src="logo.png" alt="" style="width: 7%;">
+            </picture>
+        </a>
+        <h2>
+            NS MOVIES
+        </h2>
+        <p>
+            Os melhores filmes você encontra aqui
+        </p>
+    </header>
+    <nav>
+        <a href="usuario.html">Cliente</a>
+        <a href="carrinho.html">Carrinho</a>
+        <a href="faleconosco.html">Fale Conosco</a>
+    </nav>
+    <div class="row justify-content-center">
+        <div class="col-6 shadow-sm p-3 mt-5 bg-body m-3 align-content-center">
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                <h3 style="text-align:center ;">Fale Conosco</h3>
+                <!-- Replace with accesKey sent to your email -->
+                <input type="hidden" name="accessKey" value="a8ac64af-021d-4d82-8aad-4f1b36293881"> <!-- Required -->
+                <div class="mb-3">
+                    <input type="text" class="form-control" id="exampleFormControlInput1" name="name" placeholder="Seu nome: ">
+                  </div>
+                <div class="mb-3">
+                    <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="Seu e-mail: ">
+                  </div>
+                  <div class="mb-3">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" name="message" rows="10"></textarea>
+                  </div>
+
+                  <div class="mb-3" style="text-align: center;">
+                    <button type="submit" class="btn btn-info btn-lg">Enviar</button>
+                  </div>
+
+            </form>
+        </div>
+
+        <footer>
+            <a href="https://www.instagram.com/naianyy_silva/"><img src="logo insta.png" alt="" style="width: 4%;"
+                    id="insta">@naianyy_silva</a>
+            <a href="https://www.facebook.com/naiany.silva.37266"><img src="logo-facebook-png.webp" alt="" style="width: 4%;"
+                    id="facebook">@naianysilva</a>
+    
+        </footer>
+
+    </div>
+
+</body>
+</html>

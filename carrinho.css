@@ -1,0 +1,19 @@
+/* body{
+    /* background-color: lightcyan; */
+/* } */
+.container{
+    /* background-color: lightcyan; */
+    margin-top: 100px;
+}
+#itens, #tota, .total{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    color: black;
+    padding-top: 30px;
+}
+button, #button{
+    background-color: lightgreen;
+    border-color: lightgreen;
+}
+
+

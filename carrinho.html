@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Carrinho</title>
+
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="carrinho.css">
+	<link rel="stylesheet" href="geral.css">
+</head>
+
+<body>
+	<div class="container">
+		<header>
+			<a href="principal.html">
+				<picture>
+					<img src="logo.png" alt="" style="width: 7%;">
+				</picture>
+			</a>
+			<h2>
+				NS MOVIES
+			</h2>
+			<p>
+				Os melhores filmes você encontra aqui
+			</p>
+		</header>
+		<nav>
+			<a href="usuario.html">Cliente</a>
+			<a href="carrinho.html">Carrinho</a>
+			<a href="faleconosco.html">Fale Conosco</a>
+		</nav>
+		<div class="row justify-content-center">
+			<div class="col align-content-center">
+				<div id="itens"> </div>
+				<div class="total">Total: <span id="total"></span> </div>
+				<br><br>
+
+
+
+				<button type="button" onclick=" localStorage.clear(); location.reload();"> Limpar carrinho </button>
+
+				<a href="pagamento.html"><input type="button" id="button" value="Formas de pagamento"
+						onclick="pegarValor()"></a>
+
+			</div>
+		</div>
+	</div>
+
+
+	<footer>
+		<a href="https://www.instagram.com/naianyy_silva/"><img src="logo insta.png" alt="" style="width: 4%;"
+				id="insta">@naianyy_silva</a>
+		<a href="https://www.facebook.com/naiany.silva.37266"><img src="logo-facebook-png.webp" alt="" style="width: 4%;"
+				id="facebook">@naianysilva</a>
+
+	</footer>
+
+
+
+</body>
+<script src="main.js"></script>
+
+</html>

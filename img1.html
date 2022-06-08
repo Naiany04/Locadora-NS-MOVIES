@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NS MOVIES</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="login.js"></script>
+    <link rel="stylesheet" href="imagens.css">
+    <link rel="stylesheet" href="zoom.css">
+    <link rel="stylesheet" href="geral.css">
+    
+</head>
+
+<body>
+
+    <div class="container shadow-lg m-5">
+        <header>
+
+
+                <a href="principal.html">
+                    <picture>
+                        <img src="logo.png" alt="" style="width: 7%;">
+                    </picture>
+                </a>
+
+            <h2>
+                NS MOVIES
+            </h2>
+            <p>
+                Os melhores filmes você encontra aqui
+            </p>
+        </header>
+        <nav>
+            <a href="usuario.html">Cliente</a>
+            <a href="carrinho.html">Carrinho</a>
+            <a href="faleconosco.html">Fale Conosco</a>
+        </nav>
+
+        <div class="row justify-content-center ">
+
+            <div class="col-4 p-2" id="col1">
+                <div class="card-body">
+                <picture>
+                    <img class="img" src="abduction.jpg" style="width: 90%;" alt="" srcset="">
+                </picture>
+            </div>
+            </div>
+            <div class="col-4 p-3">
+                <h3>Abduction</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus laudantium illo consectetur animi
+                    cupiditate molestias deleniti nam maiores blanditiis odit, iste nesciunt repellendus dolorem, alias
+                    ullam quibusdam? Nostrum, officiis dolorem.
+                </p>
+                
+                <div align="center">
+                    <br><strong><br> <p>R$ 10,00</p></strong><br>
+                    <p>Quantidade: <input type="number" value="0" min="0" max="10" id="qtd1"></p>
+                        <button class="btn btn-info" type="button" id="adicionar1" id="produto1" style=" text-align: center;" onclick="AddCarrinho('Abduction', document.getElementById('qtd1').value, '10.00', 1)"> Comprar </button>
+                    <br>
+
+                </div>
+                <div>
+                    
+                </div>
+
+
+        
+
+            </div>
+
+
+
+            <footer>
+                <a href="https://www.instagram.com/naianyy_silva/"><img src="logo insta.png" alt="" style="width: 4%;"
+                        id="insta">@naianyy_silva</a>
+                <a href="https://www.facebook.com/naiany.silva.37266"><img src="logo-facebook-png.webp" alt="" style="width: 4%;"
+                        id="facebook">@naianysilva</a>
+        
+            </footer>
+
+        </div>
+
+
+    </div>
+</body>
+<script>
+	function AddCarrinho(produto, qtd, valor, posicao)
+	{
+		localStorage.setItem("produto" + posicao, produto);
+		localStorage.setItem("qtd" + posicao, qtd);
+		valor = valor * qtd;
+		localStorage.setItem("valor" + posicao, valor);
+		alert("Produto adicionado ao carrinho!");
+	}
+
+</script>
+
+<script src="zoom.js"></script>
+
+</html>

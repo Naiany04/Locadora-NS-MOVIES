@@ -1,0 +1,21 @@
+body{
+    background-color: lightcyan;
+}
+.container{
+    background-color: lightcyan;
+}
+h3,p, strong{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-weight: bolder;
+}
+strong{
+    padding-bottom: 4px;
+}
+input{
+    margin-top: 7px;
+}
+button{
+    background-color: lightgreen;
+    border-color: lightgreen;
+}

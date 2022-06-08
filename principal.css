@@ -1,0 +1,77 @@
+.img {
+    width: 50%;
+    text-align: center;
+}
+.big{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    padding-top: 10px;
+
+}
+.row {
+    padding-top: 60px;
+    padding-left: 200px;
+    margin-right: 200px;
+}
+
+.container {
+    background-color: lightcyan;
+}
+
+p {
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.nomeprod {
+    font-weight: bolder;
+
+}
+
+div.preco {
+    font-weight: bolder;
+    color: black;
+
+}
+
+.button{
+    margin-left: 600px;
+}
+
+.row-1 {
+    padding-top: 5px;
+    text-align: center;
+    align-items: center;
+    /* margin-left: 600px; */
+}
+input#nay{
+        font-family: 'Courier New', Courier, monospace;
+        font-size:1.5em ;
+        font-weight: bolder;
+        margin: 0px !important;
+}
+#iptC1, #iptC2{
+    background-color: gray;
+    border-radius: 5px;
+}
+.preco {
+    color: white;
+
+}
+
+span {
+    color: white;
+}
+
+.nomeprod {
+    color: black;
+}
+
+#row3 {
+    margin-bottom: 30px;
+}
+h1{
+    color: white;
+}

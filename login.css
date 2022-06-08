@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    color: black;
+    background-color: lightcyan;
+
+}
+.row{
+    background-color: lightcyan;
+    margin-top: 140px;
+}
+label{
+    text-align: center;
+}
+
+.col{
+    background-color: #91EDFF;
+}
+body{
+    background-color: lightcyan;
+}
+label{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.7em;
+    text-align: center;
+    font-weight: bolder;
+}
+
